@@ -1,16 +1,20 @@
-# flutter_rc_sample_app
+# Sample Flutter App for RC
 
-A new Flutter project.
+This is an example application that can be used to check the Remote Config and A/B testing functionalities of Countly Flutter SDK
 
-## Getting Started
+## How to use
 
-This project is a starting point for a Flutter application.
+You can either clone and use the whole repo or copy the main code and run it in your project.
 
-A few resources to get you started if this is your first Flutter project:
+- To use the whole repo:
+  - Clone the project to your local environment
+  - Enter the project: `cd flutter_rc_sample_app`
+  - run `flutter pub get` command
+  - Make sure an emulator or real device connected to your pc
+  - run `flutter run`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- To use the app code in your own project alone
+  - Copy the content of lib/main.dart into your project as a separete file
+  - Make sure Countly is declared in your pubspec.yaml
+  - run `flutter pub get`
+  - Click 'Run' above the 'void main()' function
